@@ -1,0 +1,5 @@
+
+namespace Chess {
+	void Run();
+}
+
