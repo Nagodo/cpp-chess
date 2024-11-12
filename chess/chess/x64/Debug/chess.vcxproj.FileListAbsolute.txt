@@ -1,0 +1,2 @@
+C:\Github\cpp-chess\chess\x64\Debug\SDL2d.dll
+C:\Github\cpp-chess\chess\chess\x64\Debug\chess.vcxproj.Up2Date
