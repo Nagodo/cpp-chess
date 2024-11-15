@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+
 enum Team {
 	White,
 	Black
@@ -7,10 +9,14 @@ enum Team {
 class Piece
 {
 public:
+	Piece(Team team);
+
+	const std::string baseSpritePath = "../sprites/";
+	virtual std::string getSpritePath();
 
 	Team getTeam();
 
-private:
+protected:
 	Team team;
 };
 

@@ -30,6 +30,12 @@ SDL_Handler::~SDL_Handler() {
 
 void SDL_Handler::Draw(Game* game) {
 
+	DrawBoard(game);
+
+	SDL_RenderPresent(renderer);
+}
+
+void SDL_Handler::DrawBoard(Game* game) {
 	for (int x = 0; x < 8; x++) {
 		for (int y = 0; y < 8; y++) {
 
@@ -50,6 +56,12 @@ void SDL_Handler::Draw(Game* game) {
 			SDL_RenderFillRect(renderer, &rect);
 		}
 	}
+}
 
-	SDL_RenderPresent(renderer);
+void SDL_Handler::DrawPieces(Game* game) {
+
+	for (const auto& piece : game->pieces) {
+
+	}
+
 }

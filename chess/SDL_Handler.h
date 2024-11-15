@@ -19,6 +19,7 @@ public:
 	void Draw(Game* game);
 
 private:
-
+	void DrawBoard(Game* game);
+	void DrawPieces(Game* game);
 };
 

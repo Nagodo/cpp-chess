@@ -2,10 +2,11 @@
 #include "Piece.h"
 #include <string>
 
-class Pawn : Piece
+class Pawn : public Piece
 {
 public:
+	Pawn(Team team);
 
-
+	std::string getSpritePath() override;
 };
 

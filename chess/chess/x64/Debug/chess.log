@@ -1,18 +1,4 @@
-﻿  Pawn.cpp
-C:\Github\cpp-chess\chess\Pawn.h(9,9): error C3646: 'imagePath': unknown override specifier
-  (compiling source file 'Pawn.cpp')
-  
-C:\Github\cpp-chess\chess\Pawn.h(9,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Pawn.cpp')
-  
-  Piece.cpp
-  SDL_Handler.cpp
-C:\Github\cpp-chess\chess\SDL_Handler.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'SDL_Handler.cpp')
-  
-C:\Github\cpp-chess\chess\Game.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'SDL_Handler.cpp')
-  
-C:\Github\cpp-chess\chess\SDL_Handler.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Github\cpp-chess\chess\SDL_Handler.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Generating Code...
+﻿  Piece.cpp
+  chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
