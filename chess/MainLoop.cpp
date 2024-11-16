@@ -5,21 +5,21 @@
 
 void Chess::Run() {
 
-	SDL_Handler handler;
+	SDL_Handler* handler = new SDL_Handler();
 
-	Game game;
+	Game* game = new Game();
 
 	bool run = true;
 	while (run) {	
 
-		if (SDL_WaitEvent(&handler.event)) {
+		if (SDL_WaitEvent(handler->event)) {
 
-			if (handler.event.type == SDL_QUIT) {
+			if (handler->event->type == SDL_QUIT) {
 				break;
 			}
 
 		}
 
-		handler.Draw(&game);
+		handler->Draw(game);
 	}
 }

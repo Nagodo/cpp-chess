@@ -1,11 +1,14 @@
 #include "SDL_Handler.h"
 #include "SDL2/SDL.h";
+#include <SDL2/SDL_image.h>
 #include <iostream>
 #include "Game.h";
 
 // Init the sdl process
 SDL_Handler::SDL_Handler() {
 	
+	event = new SDL_Event();
+		
 	if (SDL_Init(SDL_INIT_VIDEO) == -1) {
 		std::cout << "Could not init SDL\n";
 		exit(-1);
@@ -28,9 +31,24 @@ SDL_Handler::~SDL_Handler() {
 	std::cout << "destruct";
 }
 
+SDL_Texture* SDL_Handler::LoadImageToTexture(std::string filename) {
+	std::cout << filename << std::endl;
+	SDL_Surface* surface = IMG_Load(filename.c_str());
+	if (!surface) {
+		std::cout << "Could not load image\n";
+		exit(-1);
+	}
+
+	SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+	SDL_FreeSurface(surface);
+
+	return texture;
+}
+
 void SDL_Handler::Draw(Game* game) {
 
 	DrawBoard(game);
+	DrawPieces(game);
 
 	SDL_RenderPresent(renderer);
 }
@@ -61,6 +79,22 @@ void SDL_Handler::DrawBoard(Game* game) {
 void SDL_Handler::DrawPieces(Game* game) {
 
 	for (const auto& piece : game->pieces) {
+
+		std::string path = piece.get()->getSpritePath();
+
+		if (loadedTextures[path]) {
+			SDL_Rect rect = {
+					1 * SCREEN_WIDTH / 8,
+					1 * SCREEN_HEIGHT / 8,
+					game->TILE_SIZE,
+					game->TILE_SIZE
+			};
+
+			SDL_RenderCopy(renderer, loadedTextures[path], NULL, &rect);
+		} 
+		else {
+			loadedTextures[path] = LoadImageToTexture(path);
+		}
 
 	}
 

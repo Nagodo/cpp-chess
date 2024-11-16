@@ -14,7 +14,7 @@ public:
 	const SDL_Color whiteColor = { 255, 255, 255 };
 	const SDL_Color blackColor = { 10, 10, 10 };
 
-	std::vector<std::unique_ptr<Piece>> pieces;
+	std::vector<std::unique_ptr<Piece>> pieces = std::vector<std::unique_ptr<Piece>>(32);
 	
 	void SetupBoard();
 

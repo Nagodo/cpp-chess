@@ -11,7 +11,7 @@ class Piece
 public:
 	Piece(Team team);
 
-	const std::string baseSpritePath = "../sprites/";
+	const std::string baseSpritePath = "./";
 	virtual std::string getSpritePath();
 
 	Team getTeam();
