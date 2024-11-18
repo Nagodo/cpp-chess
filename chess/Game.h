@@ -14,9 +14,11 @@ public:
 	const SDL_Color whiteColor = { 255, 255, 255 };
 	const SDL_Color blackColor = { 10, 10, 10 };
 
+	const std::string defaultFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
+
 	std::vector<std::unique_ptr<Piece>> pieces = std::vector<std::unique_ptr<Piece>>(32);
 	
-	void SetupBoard();
+	void LoadBoardFromFEN(std::string);
 
 private:
 };

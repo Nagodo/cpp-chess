@@ -80,7 +80,11 @@ void SDL_Handler::DrawPieces(Game* game) {
 
 	for (const auto& piece : game->pieces) {
 
-		std::string path = piece.get()->getSpritePath();
+		if (!piece) {
+			continue;
+		}
+
+		std::string path = piece->getSpritePath();
 
 		if (loadedTextures[path]) {
 			SDL_Rect rect = {

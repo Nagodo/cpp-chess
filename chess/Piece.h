@@ -6,12 +6,13 @@ enum Team {
 	Black
 };
 
+
 class Piece
 {
 public:
 	Piece(Team team);
 
-	const std::string baseSpritePath = "./";
+	const std::string baseSpritePath = "./sprites/";
 	virtual std::string getSpritePath();
 
 	Team getTeam();

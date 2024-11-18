@@ -21,6 +21,9 @@ F:\Github\cpp-chess\chess\Game.h(2,10): warning C4067: unexpected tokens followi
 F:\Github\cpp-chess\chess\SDL_Handler.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 F:\Github\cpp-chess\chess\SDL_Handler.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating Code...
+  LINK : F:\Github\cpp-chess\chess\x64\Debug\chess.exe not found or not built by the last incremental link; performing full link
+main.obj : warning LNK4099: PDB '' was not found with 'main.obj' or at ''; linking object as if no debug info
+Rook.obj : warning LNK4099: PDB '' was not found with 'Rook.obj' or at ''; linking object as if no debug info
   chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
