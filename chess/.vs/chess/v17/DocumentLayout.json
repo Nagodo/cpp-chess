@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\Github\\cpp-chess\\chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\SDL_Handler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,37 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Pawn.h",
+              "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Pawn.h",
+              "RelativeDocumentMoniker": "Pawn.h",
+              "ToolTip": "F:\\Github\\cpp-chess\\chess\\Pawn.h",
+              "RelativeToolTip": "Pawn.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T19:34:00.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Piece.h",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Piece.h",
               "RelativeDocumentMoniker": "Piece.h",
               "ToolTip": "F:\\Github\\cpp-chess\\chess\\Piece.h",
               "RelativeToolTip": "Piece.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-16T22:53:56.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T22:53:56.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.cpp",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
               "ToolTip": "F:\\Github\\cpp-chess\\chess\\Game.cpp",
               "RelativeToolTip": "Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-11T22:35:16.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SDL_Handler.cpp",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\SDL_Handler.cpp",
               "RelativeDocumentMoniker": "SDL_Handler.cpp",
@@ -64,12 +79,11 @@
               "RelativeToolTip": "SDL_Handler.cpp",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAEwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-11T17:40:47.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T17:40:47.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SDL_Handler.h",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\SDL_Handler.h",
               "RelativeDocumentMoniker": "SDL_Handler.h",

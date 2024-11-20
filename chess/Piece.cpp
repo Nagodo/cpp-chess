@@ -1,7 +1,8 @@
 #include "Piece.h"
 
-Piece::Piece(Team team):
-	team(team)
+Piece::Piece(Team team, PieceType type):
+	team(team),
+	pieceType(type)
 {
 
 }

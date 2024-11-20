@@ -1,6 +1,6 @@
 #include "Pawn.h"
 
-Pawn::Pawn(Team team): Piece(team) {
+Pawn::Pawn(Team team, PieceType type): Piece(team, type) {
 
 }
 

@@ -5,7 +5,7 @@
 class Pawn : public Piece
 {
 public:
-	Pawn(Team team);
+	Pawn(Team team, PieceType type);
 
 	std::string getSpritePath() override;
 };
