@@ -1,1 +1,7 @@
-﻿  chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
+﻿  Game.cpp
+F:\Github\cpp-chess\chess\Game.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game.cpp')
+  
+  chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

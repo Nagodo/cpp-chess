@@ -29,24 +29,23 @@ void Game::LoadBoardFromFEN(std::string fen) {
 		char currentChar = fen[i];
 
 		if (isdigit(currentChar)) { // Empty space
-	
-			currentLetter += currentChar;
+
+			currentLetter += currentChar - '0';
 			
 			if (currentLetter > 'h') {
 
 				currentLetter = 'a';
-
 			}
 		}
 		else if (currentChar == '/') { // New row
+
 			currentRow -= 1;
+			
 		}
 		else { // Is Piece
-			std::cout << fen[i] << std::endl;
-			std::cout << currentLetter << currentRow << std::endl;
 			
 			currentLetter++;
-
+			
 			if (currentLetter > 'h') {
 
 				currentLetter = 'a';
