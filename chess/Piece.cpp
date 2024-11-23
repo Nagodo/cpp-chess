@@ -1,8 +1,8 @@
 #include "Piece.h"
 
-Piece::Piece(Team team, PieceType type):
+Piece::Piece(Team team, std::string position):
 	team(team),
-	pieceType(type)
+	position(position)
 {
 
 }

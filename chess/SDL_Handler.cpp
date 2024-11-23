@@ -32,7 +32,7 @@ SDL_Handler::~SDL_Handler() {
 }
 
 SDL_Texture* SDL_Handler::LoadImageToTexture(std::string filename) {
-	std::cout << filename << std::endl;
+
 	SDL_Surface* surface = IMG_Load(filename.c_str());
 	if (!surface) {
 		std::cout << "Could not load image\n";
@@ -41,6 +41,8 @@ SDL_Texture* SDL_Handler::LoadImageToTexture(std::string filename) {
 
 	SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
 	SDL_FreeSurface(surface);
+
+	std::cout << "Loaded texture: " << filename << std::endl;
 
 	return texture;
 }
@@ -58,10 +60,10 @@ void SDL_Handler::DrawBoard(Game* game) {
 		for (int y = 0; y < 8; y++) {
 
 			if ((x + y) % 2) {
-				SDL_SetRenderDrawColor(renderer, game->whiteColor.r, game->whiteColor.g, game->whiteColor.b, 255);
+				SDL_SetRenderDrawColor(renderer, game->blackColor.r, game->blackColor.g, game->blackColor.b, 255);
 			}
 			else {
-				SDL_SetRenderDrawColor(renderer, game->blackColor.r, game->blackColor.g, game->blackColor.b, 255);
+				SDL_SetRenderDrawColor(renderer, game->whiteColor.r, game->whiteColor.g, game->whiteColor.b, 255);
 			}
 
 			SDL_Rect rect = {
@@ -87,9 +89,13 @@ void SDL_Handler::DrawPieces(Game* game) {
 		std::string path = piece->getSpritePath();
 
 		if (loadedTextures[path]) {
+				
+			int x = piece->position[0] - 97; 
+			int y = piece->position[1] - '0';
+
 			SDL_Rect rect = {
-					1 * SCREEN_WIDTH / 8,
-					1 * SCREEN_HEIGHT / 8,
+					x * SCREEN_WIDTH / 8,
+					(SCREEN_HEIGHT) - y * SCREEN_HEIGHT / 8,
 					game->TILE_SIZE,
 					game->TILE_SIZE
 			};

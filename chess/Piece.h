@@ -6,27 +6,17 @@ enum Team {
 	Black
 };
 
-enum PieceType {
-	PawnPiece,
-	KnightPiece,
-	BishopPiece,
-	RookPiece,
-	QueenPiece,
-	KingPiece
-};
-
 
 class Piece
 {
-	
-
 public:
-	Piece(Team team, PieceType type);
+	Piece(Team team, std::string position);
 
 	const std::string baseSpritePath = "./sprites/";
+
 	virtual std::string getSpritePath();
 
-	PieceType pieceType;
+	std::string position;
 
 	Team getTeam();
 

@@ -1,6 +1,13 @@
 #include "Game.h"
 #include "Pawn.h"
 #include <iostream>
+#include "Rook.h"
+#include "Bishop.h"
+#include "Knight.h"
+#include "Queen.h"
+#include "King.h"
+
+using namespace std;
 
 Game::Game()
 {
@@ -8,20 +15,7 @@ Game::Game()
 }
 
 
-void Game::LoadBoardFromFEN(std::string fen) {
-
-
-	/*for (int y = 8; y > 0; y--) {
-		for (int x = 0; x < 8; x++) {
-
-			if (x == 7) {
-				currentLetter = 'a';
-			}
-			else {
-				currentLetter++;
-			}
-		}
-	}*/
+void Game::LoadBoardFromFEN(string fen) {
 
 	char currentLetter = 'a';
 	int currentRow = 8;
@@ -43,18 +37,51 @@ void Game::LoadBoardFromFEN(std::string fen) {
 			
 		}
 		else { // Is Piece
-			
-			currentLetter++;
-			
-			if (currentLetter > 'h') {
 
-				currentLetter = 'a';
+			Team team = currentChar < 97 ? Team::White : Team::Black;
+			string position = string(1, currentLetter) + to_string(currentRow);
+			switch (currentChar) {
+			case 'p':
+			case 'P':
+				pieces.push_back(make_unique<Pawn>(team, position));
+				break;
+
+			case 'b':
+			case 'B':
+				pieces.push_back(make_unique<Bishop>(team, position));
+				break;
+
+			case 'n':
+			case 'N':
+				pieces.push_back(make_unique<Knight>(team, position));
+				break;
+
+			case 'r':
+			case 'R':
+				pieces.push_back(make_unique<Rook>(team, position));
+				break;
+
+			case 'q':
+			case 'Q':
+				pieces.push_back(make_unique<Queen>(team, position));
+				break;
+
+			case 'k':
+			case 'K':
+				pieces.push_back(make_unique<King>(team, position));
+				break;
 
 			}
+
+			currentLetter++;
+
+			if (currentLetter > 'h') {
+				currentLetter = 'a';
+			}
+
 		}
 	}
 
-	pieces[0] = std::make_unique<Pawn>(Team::White, PieceType::PawnPiece);
 }
 
 
