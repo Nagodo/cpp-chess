@@ -1,7 +1,10 @@
-﻿  Game.cpp
-C:\Github\cpp-chess\chess\Game.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Game.cpp')
+﻿  MainLoop.cpp
+F:\Github\cpp-chess\chess\SDL_Handler.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MainLoop.cpp')
   
-  King.cpp
-  Generating Code...
-  chess.vcxproj -> C:\Github\cpp-chess\chess\x64\Debug\chess.exe
+F:\Github\cpp-chess\chess\Game.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MainLoop.cpp')
+  
+  chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

@@ -1,10 +1,7 @@
 #pragma once
 #include <string>
 
-enum Team {
-	White,
-	Black
-};
+
 
 
 class Piece

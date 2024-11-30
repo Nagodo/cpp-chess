@@ -1,8 +1,14 @@
 #pragma once
+
 #include "SDL2/SDL.h";
 #include "Piece.h"
 #include <memory>
 #include <vector>
+
+enum class Team {
+	White,
+	Black
+};
 
 class Game
 {
@@ -17,6 +23,7 @@ public:
 	const std::string defaultFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
 
 	std::vector<std::unique_ptr<Piece>> pieces = std::vector<std::unique_ptr<Piece>>(32);
+	Team turn = Team::White;
 	
 	void LoadBoardFromFEN(std::string);
 
