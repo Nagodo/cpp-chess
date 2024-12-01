@@ -1,8 +1,6 @@
 #pragma once
 #include <string>
-
-
-
+#include "Team.h"
 
 class Piece
 {

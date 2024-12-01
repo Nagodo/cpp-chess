@@ -1,10 +1,31 @@
-﻿  MainLoop.cpp
+﻿  Bishop.cpp
+  Game.cpp
+F:\Github\cpp-chess\chess\Game.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Game.cpp')
+  
+  King.cpp
+  Knight.cpp
+  MainLoop.cpp
 F:\Github\cpp-chess\chess\SDL_Handler.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'MainLoop.cpp')
   
 F:\Github\cpp-chess\chess\Game.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'MainLoop.cpp')
   
+  Pawn.cpp
+  Piece.cpp
+  Queen.cpp
+  Rook.cpp
+  SDL_Handler.cpp
+F:\Github\cpp-chess\chess\SDL_Handler.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'SDL_Handler.cpp')
+  
+F:\Github\cpp-chess\chess\Game.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'SDL_Handler.cpp')
+  
+F:\Github\cpp-chess\chess\SDL_Handler.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+F:\Github\cpp-chess\chess\SDL_Handler.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
   chess.vcxproj -> F:\Github\cpp-chess\chess\x64\Debug\chess.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

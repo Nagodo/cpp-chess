@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "F:\\Github\\cpp-chess\\chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\MainLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:MainLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\MainLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:MainLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|F:\\Github\\cpp-chess\\chess\\Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6978EBCB-C031-4883-95FA-76037B8E5C6C}|chess.vcxproj|solutionrelative:Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Team.h",
+              "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Team.h",
+              "RelativeDocumentMoniker": "Team.h",
+              "ToolTip": "F:\\Github\\cpp-chess\\chess\\Team.h",
+              "RelativeToolTip": "Team.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T13:34:11.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bishop.h",
+              "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Bishop.h",
+              "RelativeDocumentMoniker": "Bishop.h",
+              "ToolTip": "F:\\Github\\cpp-chess\\chess\\Bishop.h",
+              "RelativeToolTip": "Bishop.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T13:32:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Piece.h",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Piece.h",
               "RelativeDocumentMoniker": "Piece.h",
               "ToolTip": "F:\\Github\\cpp-chess\\chess\\Piece.h",
               "RelativeToolTip": "Piece.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-30T23:05:22.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Game.h",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Game.h",
               "RelativeDocumentMoniker": "Game.h",
               "ToolTip": "F:\\Github\\cpp-chess\\chess\\Game.h",
               "RelativeToolTip": "Game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-27T19:53:50.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
@@ -69,15 +103,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainLoop.cpp",
               "DocumentMoniker": "F:\\Github\\cpp-chess\\chess\\MainLoop.cpp",
               "RelativeDocumentMoniker": "MainLoop.cpp",
               "ToolTip": "F:\\Github\\cpp-chess\\chess\\MainLoop.cpp",
               "RelativeToolTip": "MainLoop.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-23T20:28:55.169Z"
+              "WhenOpened": "2024-11-23T20:28:55.169Z",
+              "EditorCaption": ""
             }
           ]
         }

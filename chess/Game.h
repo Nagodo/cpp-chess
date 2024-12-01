@@ -4,11 +4,7 @@
 #include "Piece.h"
 #include <memory>
 #include <vector>
-
-enum class Team {
-	White,
-	Black
-};
+#include "Team.h"
 
 class Game
 {
